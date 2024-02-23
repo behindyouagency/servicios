@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+
+header img {
+    max-width: 200px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.categorias {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.categorias button {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #321ca0;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.categoria {
+    margin-bottom: 20px;
+}
+
+.servicio {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}

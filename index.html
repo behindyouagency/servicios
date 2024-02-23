@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios de Diseño</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="https://i.imgur.com/Jn56YaO.png" alt="Logo">
+    </header>
+    <div class="container">
+        <h1>Servicios de Diseño</h1>
+        <div class="categorias">
+            <button onclick="toggleCategoria('identidad-corporativa')">Identidad Corporativa</button>
+            <button onclick="toggleCategoria('merchandising')">Merchandising / Material P.O.P</button>
+            <button onclick="toggleCategoria('publicidad-exterior')">Publicidad Exterior</button>
+            <button onclick="toggleCategoria('impresos')">Impresos</button>
+            <button onclick="toggleCategoria('diseno-web')">Diseño Web</button>
+            <button onclick="toggleCategoria('social-media')">Social Media</button>
+        </div>
+        <div id="identidad-corporativa" class="categoria" style="display: none;"></div>
+        <div id="merchandising" class="categoria" style="display: none;"></div>
+        <div id="publicidad-exterior" class="categoria" style="display: none;"></div>
+        <div id="impresos" class="categoria" style="display: none;"></div>
+        <div id="diseno-web" class="categoria" style="display: none;"></div>
+        <div id="social-media" class="categoria" style="display: none;"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
